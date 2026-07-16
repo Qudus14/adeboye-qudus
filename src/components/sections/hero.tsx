@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { MapPin } from 'lucide-react';
 
-import SagarHeadshot from '/public/files/img_1.jpg';
+import SagarHeadshot from '@/app/assets/files/img_1.jpg';
 import SocialIcons from '@/components/data-display/social-icons';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';

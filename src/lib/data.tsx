@@ -1,30 +1,29 @@
 import { Github, Linkedin, Facebook, X, XIcon } from 'lucide-react';
 
-import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
-import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
-import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
-import LogoExpress from '/public/images/logos/icon-express.svg';
-import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
-import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoSass from '/public/images/logos/icon-sass.svg';
-import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoGit from '/public/images/logos/icon-git.svg';
+import LogoJavascript from '@/app/assets/images/logos/icon-javascript.svg';
+import LogoTypescript from '@/app/assets/images/logos/icon-typescript.svg';
+import LogoReact from '@/app/assets/images/logos/icon-react.svg';
+import LogoNextjs from '@/app/assets/images/logos/icon-nextjs.svg';
+import LogoNodejs from '@/app/assets/images/logos/icon-nodejs.svg';
+import LogoExpress from '@/app/assets/images/logos/icon-express.svg';
+import LogoExpressLight from '@/app/assets/images/logos/icon-express-light.svg';
+import LogoPostgreSQL from '@/app/assets/images/logos/icon-postgresql.svg';
+import LogoMongoDB from '@/app/assets/images/logos/icon-mongodb.svg';
+import LogoSass from '@/app/assets/images/logos/icon-sass.svg';
+import LogoTailwindcss from '@/app/assets/images/logos/icon-tailwindcss.svg';
+import LogoGit from '@/app/assets/images/logos/icon-git.svg';
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
+import LogoUpwork from '@/app/assets/images/logos/logo-upwork.svg';
+import LogoGreenApex from '@/app/assets/images/logos/logo-greenapex.svg';
+import LogoGreenApexLight from '@/app/assets/images/logos/logo-greenapex-light.svg';
+import LogoDotnpixel from '@/app/assets/images/logos/logo-dotnpixel.svg';
+import LogoDotnpixelLight from '@/app/assets/images/logos/logo-dotnpixel-light.svg';
 
-import fashi from '/public/images/fashi.png';
-import ProjectWingie from '/public/images/project-wingie.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
+import fashi from '@/app/assets/images/fashi.png';
+import ProjectWingie from '@/app/assets/images/project-wingie.png';
+import ProjectPepehousing from '@/app/assets/images/project-pepehousing.png';
 
-import AvatarDummy from '/public/images/avatar-dummy.svg';
-
+import AvatarDummy from '@/app/assets/images/avatar-dummy.svg';
 import {
   ExperienceDetails,
   ProjectDetails,
@@ -205,7 +204,7 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'Fashi',
     description:
       'An e-commerce platform offering a wide range of products and secure digital payments options. With  convinient shipping fee management and order tracking, the platform provides a seamless online shopping experience.',
-    url: 'https://fiskil.com.au',
+    url: 'https://fashi-ecommerce.vercel.app/',
     previewImage: fashi,
     technologies: [
       'React',
